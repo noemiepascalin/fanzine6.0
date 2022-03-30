@@ -1,0 +1,342 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.textblur {
+  filter: blur(25px);
+  transition: 0.3s all;
+}
+
+.textblur:hover {
+  filter: blur(0);
+}
+
+.titre {
+  text-transform: uppercase;
+  font-family: "JetBrainsMono-Bold";
+  font-size: 100px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.abces {
+  font-family: "JetBrainsMono-Bold";
+  text-transform: uppercase;
+  font-size: 300px;
+  margin-left: 1450px;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  transform: rotateZ(-180deg);
+  z-index: 4;
+}
+
+.journal {
+  height: 1000px;
+  width: auto;
+  margin-left: 50px;
+  position: absolute;
+}
+
+.imgblur {
+  filter: blur(25px);
+  transition: 0.3s all;
+}
+
+.imgblur:hover {
+  filter: blur(0);
+}
+
+.sous-titre {
+  text-transform: uppercase;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "JetBrainsMono-Bold";
+}
+
+.chapeau {
+  background-color: blue;
+  color: blue;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 1200px;
+  margin-left: 50px;
+  width: 15em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.headline2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 20em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.headline3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 20em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.a {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+}
+
+.coupe {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+}
+
+.coupe2 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.b {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 400px;
+}
+
+.c {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+}
+
+.coupe3 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.coupe4 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.accueil {
+  text-transform: uppercase;
+  font-family: "JetBrainsMono-Bold";
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  width: 6%;
+  height: 40px;
+}
+
+.boite {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1200px;
+}
+
+.cartouche {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1000px;
+  margin-top: -300px;
+}
+
+.cartouche2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 800px;
+  margin-top: -600px;
+}
+
+.cartouche3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 200px;
+  margin-top: -1400px;
+}
+
+.cartouche4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1000px;
+  margin-top: -300px;
+}
+
+.cartouche5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 30px;
+  margin-top: -1100px;
+}
+
+.cartouche6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1320px;
+  margin-top: -1000px;
+}
+
+.cartouche7 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1220px;
+  margin-top: -1200px;
+}
+
+.cartouche8 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1120px;
+  margin-top: -1800px;
+}
+
+.cartouche9 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 620px;
+  margin-top: -2100px;
+}
+
+.cartouche10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1280px;
+  margin-top: -2450px;
+}
+
+.cartouche11 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 890px;
+  margin-top: -2600px;
+}
+
+.cartouche12 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 920px;
+  margin-top: -800px;
+}
+
+.cartouche13 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.cartouche14 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1220px;
+  margin-top: -2100px;
+}
+
+.cartouche15 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1280px;
+  margin-top: -1600px;
+}
+
+.articles {
+  font-family: "JetBrainsMono-Bold";
+  position: relative;
+  display: grid;
+  grid-template-areas: "myArea myArea";
+  grid-gap: 1490px;
+  margin: 50px;
+  color: white;
+  font-size: 15px;
+}
